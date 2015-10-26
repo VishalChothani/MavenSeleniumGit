@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="11.988" errors="0" skipped="0" tests="1" name="TestCase">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="MavenTest"/>
+    <property name="PWD" value="/Users/vishalchothani/Downloads"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/vishalchothani/.jenkins"/>
+    <property name="PATH" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/bin:/usr/local/Cellar/mongodb/bin:/usr/local/Cellar/node/0.10.26/bin:/usr/local/sbin:Users/vishalchothani/Documents/275/rabbitmq-java-client-bin-3.3.5/commons-cli-1.1.jar:Users/vishalchothani/Documents/275/rabbitmq-java-client-bin-3.3.5/commons-io-1.2.jar:Users/vishalchothani/Documents/275/rabbitmq-java-client-bin-3.3.5/junit.jar:Users/vishalchothani/Documents/275/rabbitmq-java-client-bin-3.3.5/rabbitmq-client.jar:/Users/vishalchothani/Documents/Android/adt-bundle-mac-x86_64-20140702/sdk//tools:/Users/vishalchothani/Documents/Android/adt-bundle-mac-x86_64-20140702/sdk//platform-tools:/Users/vishalchothani/Documents/Android/adt-bundle-mac-x86_64-20140702/sdk//build-tools"/>
+    <property name="HUDSON_SERVER_COOKIE" value="cfcb3a296cab194a"/>
+    <property name="POM_ARTIFACTID" value="Maven_Selenium"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="TERM_SESSION_ID" value="E0497A73-98D0-430E-B90D-6FD7F6DCC560"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="Maven_Selenium"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.7.0_51-b13"/>
+    <property name="user.name" value="vishalchothani"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="TMPDIR" value="/var/folders/_f/h4w8cx8x3pbg2cg93g1yzx0c0000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib"/>
+    <property name="DISPLAY" value="/private/tmp/com.apple.launchd.J8zN6tYvRD/org.macosforge.xquartz:0"/>
+    <property name="java.version" value="1.7.0_51"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="JAVA_MAIN_CLASS_24057" value="Main"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="2"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="JRE_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.10.5"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="24.51-b03"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="vishalchothani"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/vishalchothani"/>
+    <property name="POM_GROUPID" value="com.test"/>
+    <property name="user.home" value="/Users/vishalchothani"/>
+    <property name="BUILD_TAG" value="jenkins-MavenTest-2"/>
+    <property name="JENKINS_SERVER_COOKIE" value="cfcb3a296cab194a"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/Users/vishalchothani/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.bz7aubdGPi/Render"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.3/libexec"/>
+    <property name="java.class.path" value="/Users/vishalchothani/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-agent-1.5.jar:/usr/local/Cellar/maven/3.3.3/libexec/boot/plexus-classworlds-2.5.2.jar:/usr/local/Cellar/maven/3.3.3/libexec/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /usr/local/Cellar/maven/3.3.3/libexec /Users/vishalchothani/.jenkins/war/WEB-INF/lib/remoting-2.52.jar /Users/vishalchothani/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar /Users/vishalchothani/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 64553"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="CP" value=".:Users/vishalchothani/Documents/275/rabbitmq-java-client-bin-3.3.5/commons-cli-1.1.jar:Users/vishalchothani/Documents/275/rabbitmq-java-client-bin-3.3.5/commons-io-1.2.jar:Users/vishalchothani/Documents/275/rabbitmq-java-client-bin-3.3.5/junit.jar:Users/vishalchothani/Documents/275/rabbitmq-java-client-bin-3.3.5/rabbitmq-client.jar"/>
+    <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/bin"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/usr/local/Cellar/maven/3.3.3/libexec"/>
+    <property name="java.io.tmpdir" value="/var/folders/_f/h4w8cx8x3pbg2cg93g1yzx0c0000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/vishalchothani/.jenkins"/>
+    <property name="PATH+MAVEN" value="/usr/local/Cellar/maven/3.3.3/libexec/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/MavenTest/2/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="OLDPWD" value="/Users/vishalchothani"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.DvIJlFITdJ/Listeners"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Users/vishalchothani/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/vishalchothani/Documents/workspaceSubContract/MavenSeleniumGit"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/MavenTest/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/usr/local/Cellar/maven/3.3.3/libexec"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="ANDROID_HOME" value="/Users/vishalchothani/Documents/Android/adt-bundle-mac-x86_64-20140702/sdk/"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="TERM_PROGRAM_VERSION" value="343.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/vishalchothani/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar"/>
+    <property name="MONGO_PATH" value="/usr/local/Cellar/mongodb"/>
+    <property name="WORKSPACE" value="/Users/vishalchothani/.jenkins/jobs/MavenTest/workspace"/>
+    <property name="maven3.interceptor.common" value="/Users/vishalchothani/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="USER" value="vishalchothani"/>
+  </properties>
+  <testcase time="11.988" classname="TestCase" name="OpenSub"/>
+</testsuite>
